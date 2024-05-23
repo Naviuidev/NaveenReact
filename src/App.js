@@ -3,6 +3,7 @@ import Home from "./Components/Home/Home";
 import Test from "./Components/Test/Test";
 import Login from "./Components/Login/Login";
 import Signup from "./Components/Signup/Signup";
+import Cards from "./Components/Cards/Cards";
 import {BrowserRouter , Routes , Route} from 'react-router-dom';
 import { createContext, useContext, useState } from "react";
 const AuthContext = createContext();
@@ -16,6 +17,7 @@ const App=()=>{
           <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/Test" element={<Test/>}/>
+            <Route path="/Cards" element={<Cards/>}/>
             <Route path="/Login" element={<Login/>}/>
             <Route path="/Signup" element={<Signup/>}/>
           </Routes>
