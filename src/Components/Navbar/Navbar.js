@@ -1,18 +1,30 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useAuth } from '../../App';
 
 const Navbar = () => {
     const { user , setUser } = useAuth();
+    const [scrolled, setScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const isTop = window.scrollY < 100; // Change 100 to the desired scroll position
+            setScrolled(!isTop); // Update the scrolled state based on whether it's not at the top
+        };
+    
+        document.addEventListener('scroll', handleScroll);
+    
+        return () => {
+            document.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
     const handleLogout = () => {
         // Perform logout logic here (clear user from state or perform any cleanup)
         setUser(null); // Assuming setUser is a function to update the user state
     };
-    console.log('User object:', user);
-
 
     return (
         <div>
-            <nav className="navbar navbar-expand-lg fixed-top">
+            <nav className={`navbar navbar-expand-lg p-0 fixed-top  ${scrolled ? 'scrolled' : ''}`}>
                 <div className="container">
                     <a className="navbar-brand" href="/">Navbar</a>
                     

@@ -1,0 +1,52 @@
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto; /* Adjust height as needed */
+  }
+  
+  .active {
+    opacity: 1;
+  }
+  
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+  .reviewBg{
+    background: url(https://media.licdn.com/dms/image/D561FAQF4ZsEltJqSiQ/feedshare-document-images_1280/1/1715937449009?e=1717632000&v=beta&t=ISwqnIoQVGCyyfa4CC8KQoLSe1BTcP_8ioh0e8BkRiA);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+  }

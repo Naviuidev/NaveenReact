@@ -1,0 +1,54 @@
+.solCard1 {
+    background: linear-gradient(to right, #f6ff7332, #1c3ff01c) !important;
+}
+.solCard2 {
+    background: linear-gradient(to right, #73ffa61b, #1c9bf00f) !important;
+}
+.solCard3 {
+    background: linear-gradient(to right, #73d3ff1b, #bb1cf00f) !important;
+}
+.solCard4 {
+    background: linear-gradient(to right, #9fff731b, #1cf0de0f) !important;
+}
+.colBg {
+    background: url(https://images.unsplash.com/photo-1590650153855-d9e808231d41?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.colBg2{
+    background: url(https://plus.unsplash.com/premium_photo-1682144440391-bece4365baa3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.colBg3{
+    background: url(https://plus.unsplash.com/premium_photo-1682144440391-bece4365baa3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.petroBg{
+    background: url('https://www.piloggroup.com/img/navv.webp');
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+
+}
+.bgAchiv{
+    background: linear-gradient(to right, #73ffa6c4, #1c9bf0bb), url(https://images.unsplash.com/photo-1603201667141-5a2d4c673378?q=80&w=1796&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
