@@ -26,7 +26,9 @@ const Navbar = () => {
         <div>
             <nav className={`navbar navbar-expand-lg p-0 fixed-top  ${scrolled ? 'scrolled' : ''}`}>
                 <div className="container">
-                    <a className="navbar-brand" href="/">Navbar</a>
+                    <a className="navbar-brand" href="/">
+                        <img src='https://www.piloggroup.com/img/header/logo-header.png' style={{width:'100px'}} className='img-fluid'/>
+                    </a>
                     
                     <ul className="navbar-nav  mb-2 mb-lg-0">
                         {user ? (

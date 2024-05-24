@@ -6,6 +6,7 @@ import Signup from "./Components/Signup/Signup";
 import Cards from "./Components/Cards/Cards";
 import {BrowserRouter , Routes , Route} from 'react-router-dom';
 import { createContext, useContext, useState } from "react";
+import Footer from "./Components/Footer/Footer";
 const AuthContext = createContext();
 const App=()=>{
   const [user , setUser] = useState(null);
@@ -23,7 +24,9 @@ const App=()=>{
           </Routes>
        
       </BrowserRouter>
+      <Footer/>
       </AuthContext.Provider>
+
     </div>
   );
 };

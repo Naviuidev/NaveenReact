@@ -157,6 +157,72 @@ const Simple=()=>{
       </div>
         </div>
     </section>
+    <section class="pt-3 pb-5">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="my-2">
+                        <h2 class="text-dark text-center seccondaryHeading py-4 aos-init aos-animate" data-aos="fade-up">Industry Recognition</h2>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center">
+                    <div class="my-2">
+                        <img src="https://www.piloggroup.com/images/index/certifications/co-innovated-with-sap.png" class="img-fluid p-3 solCard1   " style={{width:'250px'}}/>
+                       
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center">
+                    <div class="my-2">
+                        <img src="https://www.piloggroup.com/images/index/certifications/sap-certified.png" class="img-fluid p-3 solCard2   " style={{width:'250px'}}/>
+                       
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center">
+                    <div class="my-2">
+                        <img src="https://www.piloggroup.com/images/index/certifications/sap-certified-integration-s4hana.png" class="img-fluid p-3 solCard3   " style={{width:'250px'}}/>
+                       
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center">
+                    <div class="my-2">
+                        <img src="https://www.piloggroup.com/images/index/certifications/sap-premium-certified.png" class="img-fluid p-3 solCard4   " style={{width:'250px'}}/>
+                       
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 text-center">
+                    <div class="my-2">
+                        <img src="https://www.piloggroup.com/images/index/certifications/iso-27001.png" class="img-fluid p-1 solCard4   " style={{width:'250px'}}/>
+                       
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 text-center">
+                    <div class="my-2">
+                        <img src="https://www.piloggroup.com/images/index/certifications/iso-9001.png" class="img-fluid p-1 solCard4   " style={{width:'250px'}}/>
+                       
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 text-center">
+                    <div class="my-2">
+                        <img src="https://www.piloggroup.com/images/index/certifications/iso-8000.png" class="img-fluid  solCard3   " style={{width:'200px'}}/>
+                       
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 text-center">
+                    <div class="my-2">
+                        <img src="https://www.piloggroup.com/images/index/certifications/integrated-with-oracle-cloud.png" class="img-fluid p-1 solCard2   " style={{width:'250px'}}/>
+                       
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 text-center">
+                    <div class="my-2">
+                        <img src="https://www.piloggroup.com/images/index/certifications/powered-by-oracle-cloud.png" class="img-fluid p-1 solCard1  " style={{width:'250px'}}/>
+                       
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
    
     
         </div>
